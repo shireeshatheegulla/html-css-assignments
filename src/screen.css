@@ -1,6 +1,12 @@
 /* Our CSS file. */
 
-
-.container, .content {
-width: 100%;
+.one,.two{
+    width:100%;
+    display:inline-flex;
+}
+.section1,.section2,.section3,.section4{
+    width:50%;
+}
+.section1{
+    vertical-align:top;
 }
