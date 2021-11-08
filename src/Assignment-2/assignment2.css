@@ -5,3 +5,65 @@
 width: 100%;
 height: 100%;
 }
+.logo{
+    display:block;
+border:2px solid black;
+border-radius: 10px;
+margin: 15px;
+}
+.uphead{
+    display:inline-block;
+    border: 2px solid black;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+.input,.search{
+    display:inline-block;
+    border: 2px solid black;
+}
+
+.navbar{
+    display:flex;
+    border:2px solid black;
+    margin-top: 8px;
+    height: 34px;
+    align-content: stretch;
+    border-radius:8px;
+    justify-content: space-evenly;
+    font-size:30px
+}
+
+.mid-section{
+    display:block;
+    border:2px solid black;
+    border-radius:8px;
+    padding:8px;
+    justify-content: space-between;
+    margin-top:8px;
+}
+.leftsidebar{
+
+    border:2px solid black;
+    border-radius:8px;
+    padding:30px;
+    font-size:30px;
+}
+.rightsidebar{
+    border:2px solid black;
+    padding:30px;
+    margin-left: 900px;
+    font-size:20px;
+}
+.main-content-section{
+    border:3px solid black;
+    border-radius:8px;
+
+}
+.page-footer {
+    border:2px solid-black;
+    background-color: grey;
+    border-radius: 8px;
+    margin-top:6px;
+    font-size: 20px;
+}
+
